@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Box model in CSS
+    1. Height
+    2. Width
+    3. Border
+    4. Padding
+    5. Margin
+*/
+
+.div1{
+    /* Height */
+    height: 100px;
+
+    /* width and border */
+    width: 500px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: blueviolet;
+    border-radius: 25px;
+
+    /* Padding */
+    /* padding work in inner */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+    /* Margin  */
+    /* Margin work in outer */
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background-color: aqua;
+
+    
+}
+
+/* In H1 tag we are using shorthand of border, padding, margin */
+h1{
+    /* Height */
+    height: 200px;
+
+    /* Width */
+    width: 200px;
+
+    /* border Shorthand */
+    /* width|style|color */
+    border: 2px solid green;
+    border-radius: 50%;
+
+    /* Padding Shorthand */
+    /* top|right|bottom|left->clockwise */
+    padding: 40px 20px 20px 20px;
+
+    /* Margin Shorthand */
+    /* top|right|bottom|left->clockwise */
+    margin: 30px 10px 30px 10px;
+    background-color: gray;
+}
+
+/* Que 1 */
+.Que1{
+    height: 100px;
+    width: 100px;
+
+    background-color: green;
+    border-radius: 50%;
+}
+
+/* Que 2 */
+#navbar{
+    color: white;
+    height: 60px;
+    background-color: #0f1111;
+    padding: 5px 10px 5px 10px;
+    ;
+}
+
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 200px;
+    color: white;
+}
+
+a:hover{
+    color: #f08804;
+}
+
+input{
+    padding: 5px 10px 5px 10px;
+    border-radius: 50px;
+}
+
+button{
+    background-color: #f08804;
+    margin-left: 10px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 50px;
+}
